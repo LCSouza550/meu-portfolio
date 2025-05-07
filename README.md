@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+// README.md
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Meu Portfólio - React + TypeScript
 
-## Available Scripts
+Bem-vindo ao meu portfólio! Este projeto é uma aplicação web desenvolvida com **React**, **TypeScript** e **CSS puro**. Ele foi criado para mostrar minhas habilidades como desenvolvedor front-end, incluindo experiência com frameworks modernos, autenticação via token, layout responsivo e muito mais.
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+-   **Home**: Uma breve apresentação sobre mim e meu trabalho.
+-   **Projetos**: Uma lista de alguns dos projetos em que trabalhei, com links para o código-fonte no GitHub.
+-   **Contato**: Formulário de contato básico que pode ser integrado com serviços como **EmailJS** ou **Formspree** para envio de mensagens.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   **React**: Biblioteca para construção de interfaces de usuário.
+-   **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+-   **CSS Puro**: Estilização sem o uso de frameworks como Tailwind ou Bootstrap.
+-   **React Router**: Gerenciamento de navegação entre as páginas do portfólio.
 
-### `npm test`
+## 🖥 Como Rodar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga as instruções abaixo para rodar o projeto localmente:
 
-### `npm run build`
+1. **Clone este repositório**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone https://github.com/seu-usuario/meu-portfolio.git
+    cd meu-portfolio
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Instale as dependências**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+3. **Inicie o servidor de desenvolvimento**:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```bash
+    npm start
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    O aplicativo será iniciado em [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📂 Estrutura do Projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+O projeto está organizado da seguinte forma:
 
-## Learn More
+```
+meu-portfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── (componentes reutilizáveis)
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Projects.tsx
+│   │   └── Contact.tsx
+│   ├── App.tsx
+│   ├── App.css
+│   └── index.tsx
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📌 Personalize Seu Portfólio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Atualize o conteúdo**: Vá para o arquivo `src/pages/Home.tsx` e edite as informações sobre você.
+2. **Adicione mais projetos**: Para adicionar novos projetos, edite o arquivo `src/pages/Projects.tsx` e inclua novas entradas na lista.
+3. **Integre com um serviço de formulário**: Se desejar, você pode integrar o formulário de contato com serviços como **EmailJS** ou **Formspree**.
+
+## 🔗 Links Importantes
+
+-   [Meu GitHub](https://github.com/seu-usuario)
+-   [LinkedIn](https://www.linkedin.com/in/seu-usuario/)
+-   [Site Pessoal (se aplicável)](https://seusite.com)
+
+## 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### 👨‍💻 Desenvolvedor: [Seu Nome]
